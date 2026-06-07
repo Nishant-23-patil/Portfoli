@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Results-driven Python backend developer with hands-on experience in Django, Django REST Framework, FastAPI, PostgreSQL, and Docker. Proven track record of designing and deploying production-grade RESTful APIs — delivering a 20% improvement in order processing efficiency. Skilled in JWT authentication, microservices architecture, query optimization, and CI/CD pipelines via GitHub Actions. Final-year BE student in AI & Data Science, actively seeking a Junior Python/Django Backend Developer role to build scalable, maintainable, and high-performance applications.
         </p>
       </div>
     </div>

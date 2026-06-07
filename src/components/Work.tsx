@@ -53,23 +53,48 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>E-Commerce Backend API</h4>
+                  <p>Backend Development</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>Python, Django, DRF, PostgreSQL, Docker, JWT, GitHub Actions</p>
             </div>
-          ))}
+            <WorkImage image="/images/placeholder.webp" alt="E-Commerce Backend" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>E-Commerce Data Analysis</h4>
+                  <p>Data Science</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Python, Pandas, Scikit-learn, Matplotlib, Seaborn</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Data Analysis" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Netflix Content Trend Analysis</h4>
+                  <p>EDA & Visualization</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Python, Pandas, Matplotlib, Seaborn, Feature Engineering</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Netflix Analysis" />
+          </div>
         </div>
       </div>
     </div>
